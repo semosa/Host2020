@@ -1,5 +1,5 @@
 print("Hello world")
 
 for i in range(4):
-    print(f"hallo sindre {i}")
+    print(f"hallo {i}")
 
