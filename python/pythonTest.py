@@ -1,1 +1,0 @@
-print("forsøk på system")
