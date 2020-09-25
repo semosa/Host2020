@@ -1,8 +1,9 @@
 {% extends "layout.html" %}
 {% block content %}
+    <p>dette er dummydata</p>
     {% for konto in kontoer %}
         <h3>{{ konto.type }}</h3>
-        <p>Kontonumer: {{ konto.kontonummer }}</p>
+        <p>Kontonumer: {{ konto.nummer }}</p>
         <p>Saldo: {{ konto.saldo }}</p>
     {% endfor %}
 {% endblock content %}
