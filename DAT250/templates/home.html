@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 {% block content %}
     <p>dette er dummydata</p>
+    <p>kontonummerene vises kun som en streng</p>
     {% for konto in kontoer %}
         <h3>{{ konto.type }}</h3>
         <p>Kontonumer: {{ konto.nummer }}</p>
